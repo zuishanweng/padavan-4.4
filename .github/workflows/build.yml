@@ -1,8 +1,8 @@
-name: CI
+name: build
 
 # Controls when the action will run. 
 on: 
-  push:
+ # push:
   pull_request:
   workflow_dispatch:
   release:
@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "K2P CR660x JCG-Q20 "
+            targets: "K2P JCG-Q20"
          #  - build_variant: "mt7621-usb-1"
          #    targets: "XY-C1 JCG-836PRO JCG-Y2 NEWIFI ZTE-E8820S B70"
          #  - build_variant: "mt7621-usb-2"
