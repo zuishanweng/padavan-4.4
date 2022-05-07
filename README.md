@@ -15,7 +15,4 @@ JCG Q20适配CR660x pb-boot
 
 
 - Supported devices
-  - CR660x
   - JCG-Q20
-  - K2P
-
