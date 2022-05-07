@@ -1,4 +1,4 @@
-name: build
+name: Build
 
 # Controls when the action will run. 
 on: 
@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "K2P JCG-Q20"
+            targets: "JCG-Q20"
          #  - build_variant: "mt7621-usb-1"
          #    targets: "XY-C1 JCG-836PRO JCG-Y2 NEWIFI ZTE-E8820S B70"
          #  - build_variant: "mt7621-usb-2"
